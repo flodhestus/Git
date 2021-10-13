@@ -9,12 +9,27 @@ namespace Git
     class Greeter
     {
 
+        public string name;
+       
+
+
+
         public void SayHello()
         {
             Console.WriteLine("Hello!");
+        }
+
+        public void SayHelloToMe()
+        {
+
+            Console.WriteLine("Hello " + name);
+
 
 
         }
+
+
+
 
 
 
